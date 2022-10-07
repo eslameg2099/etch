@@ -1,0 +1,116 @@
+@font-face {
+    font-family: default-font;
+    src: url(../../dashboard_assets/fonts/fonts/NeoSansArabicMedium.woff);
+    /*ge-ss-two-bold.ttf*/
+    /*NeoSansArabicMedium.woff*/
+}
+
+h1, h2, h3, h4, h5, h6, p, span, input, textarea, select, a, td, th, button, label {
+    font-family: default-font, sans-serif !important;
+}
+
+.navigation {
+    font-size: 0.9rem !important;
+}
+
+.main-menu.menu-dark {
+    background: #63AB36 !important;
+}
+
+body.semi-dark-layout .main-menu {
+    background-color: #63AB36;
+}
+
+body.semi-dark-layout .main-menu-content .navigation-main {
+    background-color: #63AB36;
+}
+
+body.semi-dark-layout .main-menu-content .navigation-main .nav-item.open a {
+    background-color: #63AB36;
+}
+
+.main-menu.menu-dark .navigation > li.active a {
+    background: linear-gradient(
+            -118deg
+            , #080808, rgb(0 0 0 / 70%));
+    box-shadow: 0 0 10px 1px rgb(106 106 113 / 70%);
+}
+body.semi-dark-layout .main-menu-content .navigation-main .nav-item.open li.active a {
+    background-color: #1a2810 !important;
+}
+
+body.semi-dark-layout .main-menu-content .navigation-main .nav-item .menu-content li:not(.active) a {
+    background-color: #69a743;
+}
+
+body.semi-dark-layout .main-menu .shadow-bottom {
+    background: linear-gradient(-180deg, #69a743 44%, rgb(122, 203, 9) 73%, rgba(44, 48, 60, 0));
+}
+
+body.semi-dark-layout .main-menu-content .navigation-main .sidebar-group-active a {
+    background: #69a743;
+}
+
+body.semi-dark-layout .main-menu:not(.expanded) .navigation .sidebar-group-active a {
+    background: #69a743;
+}
+
+body.semi-dark-layout .main-menu-content .navigation-main .nav-item .menu-content {
+    background-color: #69a743;
+}
+
+.main-menu.menu-dark .navigation {
+    background-color: #63AB36 !important;
+}
+
+.main-menu.menu-dark .navigation > li ul .active {
+    background: #69a743;
+    box-shadow: unset;
+}
+
+body.semi-dark-layout .main-menu-content .navigation-main .nav-item a:after, body.semi-dark-layout .main-menu-content .navigation-main .nav-item a {
+    color: white;
+}
+
+body.semi-dark-layout .main-menu-content .navigation-main .nav-item i {
+    color: white;
+}
+
+.main-menu .navbar-header .navbar-brand .brand-text {
+    color: #ffffff;
+}
+
+.primary {
+    color: #ffffff !important;
+}
+
+.btn-show-color {
+    background: #31740e !important;
+    color: white;
+}
+
+.btn-show-color:hover {
+    background: #31740e !important;
+    color: whitesmoke;
+}
+
+.card-link-color {
+    color: #626262;
+}
+
+.card-link-color:hover {
+    color: #31740e;
+}
+
+.image-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+
+.image-area img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}

@@ -1,0 +1,99 @@
+body {
+
+    text-align: center;
+    font-family: 'Changa';
+
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+    border: 2px #fff solid;
+    padding-left: 8px;
+    color: #500000;
+    font-size: 16px
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: rgba(80, 0, 0, 0.66);
+}
+
+input[type="submit"] {
+    margin-bottom: 20px;
+    height: 50px;
+    width: 100%;
+    background: #fff;
+    opacity: 0.8;
+    border: 0;
+    padding-right: 5px;
+    color: #0e3b67;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.headline {
+    color: #fff;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 2em auto 1em auto;
+    padding: 0 0 0 0;
+}
+input::placeholder {
+    color: #fff;
+    font-size: 16px
+}
+
+.headline span {
+    display: block;
+    border: 2px solid #fff;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    position: relative;
+    margin-right: 50%;
+    margin: 35px auto;
+}
+
+.headline span:before {
+    content: ' ';
+    width: 140px;
+    height: 2px;
+    right: 251%;
+    background: #fff;
+    position: absolute;
+    top: 45%;
+}
+
+.headline span:after {
+    content: ' ';
+    width: 140px;
+    height: 2px;
+    left: 251%;
+    background: #fff;
+    position: absolute;
+    top: 45%;
+}
+
+label {
+    color: #fff;
+}
+p{
+    color: #fff;
+    font-size: 14px
+}
+.select{
+
+    border: 2px solid #fff;
+    width: 100%;
+    margin-bottom: 20px;
+    height: 50px;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 8px;
+}
+select option{
+    color: #111;
+}

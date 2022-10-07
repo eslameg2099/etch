@@ -1,0 +1,41 @@
+.auctionOpened{
+    background: rgba(51, 170, 51, 0.4);
+    color: black;
+}
+.auctionCanceled{
+    background: rgba(170, 51, 51, 0.4);
+    color: black;
+}
+.auctionWittingBuyerConfirmation{
+    background: rgba(158, 170, 51, 0.4);
+    color: black;
+}
+.auctionClosedDirectBuy{
+    background: rgba(48, 255, 102, 0.5);
+    color: black;
+}
+.auctionWittingDirectBuyConfirmation{
+    background: rgba(158, 170, 51, 0.4);
+    color: black;
+}
+.auctionSellerConfirmed{
+    background: rgba(158, 170, 51, 0.4);
+    color: black;
+}
+.auctionClosedWithSell{
+    background: rgba(48, 255, 102, 0.5);
+    color: black;
+}
+.auctionWittingSellerConfirmation{
+    background: rgba(158, 170, 51, 0.4);
+    color: black;
+}
+.auctionClosedWithoutSell{
+    background: rgba(143, 0, 123, 0.4);
+    color: black;
+}
+
+.auctionPending{
+    background: rgba(143, 50, 0, 0.4);
+    color: black;
+}
